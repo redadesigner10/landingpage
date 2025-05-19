@@ -24,7 +24,7 @@ const products: Product[] = [
     descriptionAr: "تركيبة غنية بالزيوت الطبيعية لتقوية وإنعاش شعر الكبار",
     price: 250,
     discountPrice: 199,
-    imageSrc: "https://images.pexels.com/photos/3192483/pexels-photo-3192483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageSrc: "https://cdn.jsdelivr.net/gh/redadesigner10/photo@7091c7e1f06a3e0e52f30c48287b3eeb297e10cf/dcd2aed0-0e59-4c05-957d-ecc976baa1c1-removebg-preview.png",
     features: ["For adult hair", "Deep conditioning", "Anti-frizz", "Natural ingredients"],
     featuresAr: ["لشعر الكبار", "ترطيب عميق", "يمنع التجعد", "مكونات طبيعية"],
     forChildren: false
@@ -37,7 +37,7 @@ const products: Product[] = [
     descriptionAr: "تركيبة لطيفة مصممة خصيصًا لشعر الأطفال الرقيق",
     price: 170,
     discountPrice: 139,
-    imageSrc: "https://images.pexels.com/photos/4004477/pexels-photo-4004477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageSrc: "https://cdn.jsdelivr.net/gh/redadesigner10/photo@7091c7e1f06a3e0e52f30c48287b3eeb297e10cf/1471d1ef-ef48-4b05-85f9-ca16f6cf0b65-removebg-preview.png",
     features: ["For children's hair", "Gentle formula", "Detangling", "No tears"],
     featuresAr: ["لشعر الأطفال", "تركيبة لطيفة", "يسهل تصفيف الشعر", "لا يسبب دموع"],
     forChildren: true
