@@ -81,10 +81,44 @@ const Order: React.FC = () => {
     return calculateSubtotal() - calculateDiscount() + calculateShipping();
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('تم إرسال طلبك بنجاح! سنتواصل معك قريباً لتأكيد الطلب.');
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const orderedProducts = products
+    .filter(p => quantities[p.id] > 0)
+    .map(p => `${p.nameAr} x${quantities[p.id]}`)
+    .join(', ');
+
+  const payload = {
+    name: formData.name,
+    phone: formData.phone,
+    email: formData.email,
+    city: formData.city,
+    address: formData.address,
+    products: orderedProducts,
+    total: calculateTotal(),
   };
+
+  try {
+    const res = await fetch("https://script.google.com/macros/s/AKfycbxNCzVicTI34p1Fl4C-LP99oe1r0788_X4yvBBfI4g9mZGSsBp70w_aJjDyBSzYWd3VvQ/exec", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    const result = await res.json();
+    if (result.status === 'success') {
+      alert("✅ تم إرسال طلبك بنجاح! سنتواصل معك قريباً لتأكيد الطلب.");
+    } else {
+      alert("❌ حدث خطأ أثناء إرسال الطلب. حاول مرة أخرى.");
+    }
+  } catch (err) {
+    alert("❌ خطأ في الاتصال: " + err.message);
+  }
+};
+
 
   const totalItems = Object.values(quantities).reduce((sum, qty) => sum + qty, 0);
 
