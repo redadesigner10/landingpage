@@ -100,7 +100,7 @@ const Order: React.FC = () => {
   };
 
   try {
-    const res = await fetch("https://script.google.com/macros/s/AKfycbyJ-SQYGyHo5QCLS5H2T2NTJCM56wi0-yM8rlyPAOlugo5ao0fAk0DR90fqXTwcGYAc8A/exec", {
+    const res = await fetch("https://script.google.com/macros/s/AKfycbxVJpWkxydrgOaLIerBC6-fWCP-fzGeLYSecpb9qiXE1inySNGALAA6t_ezNIjTRcPKBQ/exec", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
