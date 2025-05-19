@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
               
               <div className="relative bg-white p-4 rounded-xl shadow-xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img 
-                  src="https://drive.google.com/uc?export=view&id=1tzsGYDLgNgZnL9M-q9F4wvV1pcl9wgiL" 
+                  src="https://cdn.jsdelivr.net/gh/redadesigner10/photo@7091c7e1f06a3e0e52f30c48287b3eeb297e10cf/Green%20and%20White%20Minimalist%20New%20Product%20Skincare%20Instagram%20Post%20(1).jpg" 
                   alt="Beautiful hair result" 
                   className="rounded-lg w-full h-auto object-cover"
                 />
