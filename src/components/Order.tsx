@@ -70,7 +70,7 @@ const Order: React.FC = () => {
 
           <div className="p-6 md:p-8 lg:p-10">
             <form
-              action="https://script.google.com/macros/s/AKfycbxVJpWkxydrgOaLIerBC6-fWCP-fzGeLYSecpb9qiXE1inySNGALAA6t_ezNIjTRcPKBQ/exec"
+              action="https://script.google.com/macros/s/AKfycbzW7mxVDOmi6V8mvmO--Dnwak8ZuL8dNdGeRaq36kp49o-_-Jim-CKYmQkADtWOmZNKiA/exec"
               method="POST"
               target="_blank"
               dir="rtl"
