@@ -18,7 +18,7 @@ const products: Product[] = [
     nameAr: "زيت الأميرات للكبار",
     price: 250,
     discountPrice: 199,
-    imageSrc: "https://images.pexels.com/photos/3192483/pexels-photo-3192483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageSrc: "https://drive.google.com/uc?export=view&id=1Ozpg4tCwtvc-KSADEv_tGwTTt_-0idt2",
     forChildren: false
   },
   {
@@ -27,7 +27,7 @@ const products: Product[] = [
     nameAr: "زيت الأميرات للأطفال",
     price: 170,
     discountPrice: 139,
-    imageSrc: "https://images.pexels.com/photos/4004477/pexels-photo-4004477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageSrc: "https://drive.google.com/uc?export=view&id=1zzs4YnQxhweWggPlPcu37moVi84rORdB",
     forChildren: true
   }
 ];
