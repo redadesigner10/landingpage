@@ -33,33 +33,7 @@ const Header: React.FC = () => {
             <Logo />
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-800 hover:text-purple-700 font-medium transition">الرئيسية</a>
-            <a href="#products" className="text-gray-800 hover:text-purple-700 font-medium transition">المنتجات</a>
-            <a href="#benefits" className="text-gray-800 hover:text-purple-700 font-medium transition">الفوائد</a>
-            <a href="#testimonials" className="text-gray-800 hover:text-purple-700 font-medium transition">آراء العملاء</a>
-            <a href="#faq" className="text-gray-800 hover:text-purple-700 font-medium transition">الأسئلة الشائعة</a>
-          </nav>
-
-          {/* Call to action buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <a 
-              href="tel:+123456789" 
-              className="flex items-center text-gray-700 hover:text-purple-700"
-            >
-              <Phone size={18} className="mr-1" />
-              <span className="text-sm">اتصل بنا</span>
-            </a>
-            <a 
-              href="#order" 
-              className="bg-purple-700 hover:bg-purple-800 text-white px-5 py-2 rounded-full transition transform hover:scale-105 flex items-center"
-            >
-              <ShoppingCart size={18} className="mr-2" />
-              <span>اطلب الآن</span>
-            </a>
-          </div>
-
+         
           {/* Mobile menu button */}
           <button 
             className="md:hidden text-gray-800 focus:outline-none"
