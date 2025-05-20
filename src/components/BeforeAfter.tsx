@@ -10,19 +10,19 @@ interface BeforeAfterImage {
 const images: BeforeAfterImage[] = [
   {
     id: 1,
-    afterImage: "https://github.com/redadesigner10/photo/blob/921da29f9249892634d28ec795fb949ab3674b19/1747698114725.jpg",
+    afterImage: "https://cdn.jsdelivr.net/gh/redadesigner10/photo@921da29f9249892634d28ec795fb949ab3674b19/1747698114725.jpg",
     description: "شعر تالف ومتقصف تحول إلى شعر حيوي وصحي",
     period: "بعد ٦ أسابيع من الاستخدام"
   },
   {
     id: 2,
-    afterImage: "https://github.com/redadesigner10/photo/blob/921da29f9249892634d28ec795fb949ab3674b19/1747698869698.jpg",
+    afterImage: "https://cdn.jsdelivr.net/gh/redadesigner10/photo@921da29f9249892634d28ec795fb949ab3674b19/1747698869698.jpg",
     description: "شعر جاف وباهت تحول إلى شعر لامع وقوي",
     period: "بعد ٤ أسابيع من الاستخدام"
   },
   {
     id: 3,
-    afterImage: "https://images.pexels.com/photos/2896853/pexels-photo-2896853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    afterImage: "https://cdn.jsdelivr.net/gh/redadesigner10/photo@921da29f9249892634d28ec795fb949ab3674b19/1747698114725.jpg",
     description: "شعر خفيف ومتساقط تحول إلى شعر كثيف وقوي",
     period: "بعد ٨ أسابيع من الاستخدام"
   }
